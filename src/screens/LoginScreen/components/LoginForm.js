@@ -48,12 +48,14 @@ const validate = (values) => {
   return errors;
 };
 
+// Just  a fn in the class 
 const Login = (props) => {
   const dispatch = useDispatch();
   const { handleSubmit } = props;
   const [showPass, setShowPass] = useState(false);
   const auth = useSelector((state) => state.auth);
   const unmounted = useRef(false);
+
   const scanFingerprintOrFaceId = async () => {
     const resData = await SecureStore.getItemAsync(secretKey);
     if (resData === null) {
@@ -101,6 +103,7 @@ const Login = (props) => {
       alert(err);
     }
   };
+  
   return (
     <KeyboardAvoidingView
       behavior={Platform.OS == "ios" ? "position" : "height"}
@@ -116,7 +119,7 @@ const Login = (props) => {
 
       <View style={styles.header}>
         <View>
-          <CustomText style={styles.title}>LOGIN</CustomText>
+          <CustomText style={styles.title}>LOGINs</CustomText>
         </View>
       </View>
       <ScrollView>
@@ -172,7 +175,7 @@ const Login = (props) => {
                 {auth.isLoading ? (
                   <ActivityIndicator size="small" color="#fff" />
                 ) : (
-                  <CustomText style={styles.textSign}>Đăng nhập</CustomText>
+                  <CustomText style={styles.textSign}>Login</CustomText>
                 )}
               </View>
             </TouchableOpacity>

@@ -63,7 +63,7 @@ export const DetailBody = ({ item, color }) => {
             textDecorationLine: "underline",
           }}
         >
-      Details
+      Details by Khanya
         </CustomText>
         <View style={styles.infoContainer}>
           <CustomText>Colour:</CustomText>

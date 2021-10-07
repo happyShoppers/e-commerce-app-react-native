@@ -22,9 +22,12 @@ export const DetailScreen = (props) => {
   const [message, setMessage] = useState('');
   const [showSnackbar, setShowSnackbar] = useState(false);
   const [color, setColor] = useState(Colors.lighter_green);
+
+
   //color
   const type = item.color;
   const [modalVisible, setModalVisible] = useState(false);
+  
   //Favorite
   const FavoriteProducts = useSelector((state) =>
     state.fav.favoriteList.some((product) => product._id === item._id),

@@ -31,6 +31,8 @@ export const SignUp = (name, email, password) => {
     dispatch({
       type: AUTH_LOADING,
     });
+
+
     try {
       const response = await timeoutPromise(
         fetch(`${API_URL}/user/register`, {
@@ -46,13 +48,16 @@ export const SignUp = (name, email, password) => {
           }),
         }),
       );
-      if (!response.ok) {
-        const errorResData = await response.json();
-        dispatch({
-          type: AUTH_FAILURE,
-        });
-        throw new Error(errorResData.err);
-      }
+
+      // if (!response.ok) {
+      //   const errorResData = await response.json();
+      //   dispatch({
+      //     type: AUTH_FAILURE,
+      //   });
+      //   throw new Error(errorResData.err);
+      // }
+
+
       dispatch({
         type: SIGN_UP,
       });
@@ -64,12 +69,17 @@ export const SignUp = (name, email, password) => {
 
 //Login
 export const Login = (email, password) => {
+
   return async (dispatch) => {
     dispatch({
       type: AUTH_LOADING,
     });
+
     const pushToken = await AskingExpoToken();
+  
+
     try {
+
       const response = await timeoutPromise(
         fetch(`${API_URL}/user/login`, {
           headers: {
@@ -84,20 +94,28 @@ export const Login = (email, password) => {
           }),
         }),
       );
-      if (!response.ok) {
-        const errorResData = await response.json();
-        dispatch({
-          type: AUTH_FAILURE,
-        });
-        throw new Error(errorResData.err);
-      }
+
+
+      // if (!response.ok) {
+      //   const errorResData = await response.json();
+      //   dispatch({
+      //     type: AUTH_FAILURE,
+      //   });
+      //   throw new Error(errorResData.err);
+      // }
+
+
       const resData = await response.json();
+
       saveDataToStorage('user', resData);
+
       dispatch(setLogoutTimer(60 * 60 * 1000));
+
       dispatch({
         type: LOGIN,
         user: resData,
       });
+
     } catch (err) {
       throw err;
     }
