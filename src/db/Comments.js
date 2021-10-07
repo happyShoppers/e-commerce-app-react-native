@@ -1,34 +1,34 @@
 export default comments = [
   {
     id: 1,
-    username: "Lionel Nguyen",
-    content: "Sản phẩm đẹp, giao hàng nhanh",
+    username: "Khanya",
+    content: "Nice product, fast delivery",
   },
   {
     id: 2,
-    username: "Kim Tinh",
+    username: "Theo",
     content:
-      "Mình mua vòng này mang được hơn 1 tháng, vòng rất sáng chất lượng tốt. Cảm ơn Shop nhiều",
+      "Easy to learn the app",
   },
   {
     id: 3,
-    username: "Nam Thọ",
+    username: "Sbu",
     content:
-      "Vòng đẹp, màu sắc như hình, chất lượng thì để mang một thời gian nữa rồi vào đánh giá tiếp ^^",
+      "Efficient and Effective",
   },
   {
     id: 4,
-    username: "Nguyên Hưng",
-    content: "Cho 5 sao, hàng đẹp xịn xò",
+    username: "Mandla",
+    content: "Has all my favourite stores",
   },
   {
     id: 5,
-    username: "Hà Bò",
-    content: "Vừa đặt ở đây, chủ shop thân thiện, sản phẩm đẹp",
+    username: "Archie",
+    content: "Saves me a lot of time when i do grocery shopping",
   },
   {
     id: 6,
-    username: "Khiêm",
-    content: "Vòng đẹp, chất lượng đúng như quảng cảo",
+    username: "Roro",
+    content: "I like that it saves cards",
   },
 ];

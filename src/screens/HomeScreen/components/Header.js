@@ -208,7 +208,7 @@ export class Header extends React.Component {
                 </Animated.View>
                 <TextInput
                   ref='input'
-                  placeholder='Tìm kiếm sản phẩm'
+                  placeholder='Search...'
                   clearButtonMode='always'
                   value={this.state.keyword}
                   onChangeText={(value) => this.searchFilterFunction(value)}
@@ -249,7 +249,7 @@ export class Header extends React.Component {
               >
                 {this.state.productsFilter.length === 0 ? (
                   <Text style={styles.image_placeholder_text}>
-                    Không tìm thấy sản phầm
+                  No products found
                   </Text>
                 ) : (
                   <FlatList

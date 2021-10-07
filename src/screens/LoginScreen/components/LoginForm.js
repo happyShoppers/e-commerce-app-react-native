@@ -36,14 +36,14 @@ const { height } = Dimensions.get("window");
 const validate = (values) => {
   const errors = {};
   if (!values.email) {
-    errors.email = "Email không được bỏ trống";
+    errors.email = "Email must not be empty";
   } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
     errors.email = "Email không hơp lệ";
   }
   if (!values.password) {
-    errors.password = "Mật khẩu không được bỏ trống";
+    errors.password = "Password cannot be left blank";
   } else if (values.password.length < 6) {
-    errors.password = "Mật khẩu phải nhiều hơn hoặc bằng 6 ký tự";
+    errors.password = "Password must be more than or equal to 6 characters";
   }
   return errors;
 };
@@ -180,7 +180,7 @@ const Login = (props) => {
         </TouchableWithoutFeedback>
         <View style={styles.center}>
           <CustomText style={styles.loginOpt}>
-            Hoặc đăng nhập bằng khuôn mặt/vân tay
+            Or login with face/fingerprint
           </CustomText>
           <View style={styles.circleImage}>
             <TouchableOpacity

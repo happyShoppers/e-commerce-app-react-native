@@ -16,7 +16,7 @@ export const ProfileBody = ({
   return (
     <View style={styles.footer}>
       <View style={styles.titleContainer}>
-        <CustomText style={styles.title}>Thông tin cá nhân</CustomText>
+        <CustomText style={styles.title}>Personal information</CustomText>
       </View>
       <Detail icon='person' content={user.name} />
       <Detail icon='email-outline' content={user.email} />

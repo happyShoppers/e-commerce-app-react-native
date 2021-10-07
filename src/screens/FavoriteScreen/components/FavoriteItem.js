@@ -53,7 +53,7 @@ export const FavoriteItem = ({ navigation, item }) => {
     try {
       await dispatch(addToCart(item));
       if (!unmounted.current) {
-        Alert.alert("Thêm thành công", "Sản phẩm đã được thêm vào giỏ hàng", [
+        Alert.alert("Thêm thành công", "Sản phẩm đã được thêm vàoCart", [
           {
             text: "OK",
           },
@@ -65,15 +65,15 @@ export const FavoriteItem = ({ navigation, item }) => {
   };
   const removeFavoriteAct = () => {
     Alert.alert(
-      "Bỏ yêu thích",
-      "Bạn có muốn bỏ sản phẩm ra khỏi mục yêu thích?",
+      "Unfavorite",
+      "Do you want to remove the product from your favorites?",
       [
         {
-          text: "Hủy",
+          text: "Cancel",
           style: "cancel",
         },
         {
-          text: "Đồng ý",
+          text: "Agree",
           onPress: () => dispatch(removeFavorite(item._id)),
         },
       ]

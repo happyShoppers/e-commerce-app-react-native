@@ -1,7 +1,7 @@
 {
   "expo": {
     "scheme": "cattuong",
-    "name": "Cat Tuong",
+    "name": "List-It",
     "slug": "e-commerce-app",
     "platforms": ["ios", "android"],
     "version": "1.0.1",

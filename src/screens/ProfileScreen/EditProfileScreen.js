@@ -34,7 +34,7 @@ export const EditProfileScreen = (props) => {
         alert(err);
       }
     } else {
-      return Alert.alert("Error", "Thông tin không hợp lệ. Vui lòng nhập lại", [
+      return Alert.alert("Error", "Invalid information. Please re-enter", [
         {
           text: "OK",
         },

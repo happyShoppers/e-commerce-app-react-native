@@ -60,15 +60,15 @@ export const ActionButton = ({
       setShowSnackbar(true);
     } else if (FavoriteProducts) {
       Alert.alert(
-        'Bỏ yêu thích',
-        'Bạn có muốn bỏ sản phẩm ra khỏi mục yêu thích?',
+        'Unfavorite',
+        'Do you want to remove the product from your favorites?',
         [
           {
-            text: 'Hủy',
+            text: 'Cancel',
             style: 'cancel',
           },
           {
-            text: 'Đồng ý',
+            text: 'Agree',
             onPress: () => dispatch(removeFavorite(item._id)),
           },
         ],
@@ -105,7 +105,7 @@ export const ActionButton = ({
           {cartLoading ? (
             <ActivityIndicator size='small' color='#fff' />
           ) : (
-            <CustomText style={styles.actionText}>Thêm vào giỏ hàng</CustomText>
+            <CustomText style={styles.actionText}>Thêm vàoCart</CustomText>
           )}
         </TouchableOpacity>
       </View>

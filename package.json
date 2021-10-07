@@ -19,7 +19,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^7.8.1",
     "eslint-config-prettier": "^6.11.0",
-    "expo": "^38.0.10",
+    "expo": "^39.0.0",
     "expo-blur": "~8.1.2",
     "expo-constants": "~9.1.1",
     "expo-image-picker": "~8.3.0",
@@ -62,7 +62,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
-    "babel-preset-expo": "^8.2.3"
+    "babel-preset-expo": "^8.3.0"
   },
   "private": true
 }

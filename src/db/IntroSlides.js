@@ -2,25 +2,25 @@
 const slides = [
   {
     id: 1,
-    lable: "Mua may mắn",
-    subtitle: "Tìm loại đá yêu thích",
+    lable: "List it",
+    subtitle: "Grocery shopping made easy",
     des:
-      "Việc lựa chọn một vòng đá phù hợp đem lại lợi ích rất lớn trong sự nghiệp, tình cảm, tiền tài",
+      "Using List-it helps you save time and money when doing groceries",
     imageUrl: require("../assets/Images/slide1.png"),
   },
   {
     id: 2,
-    lable: "Cầu bình an",
-    subtitle: "Sản phẩm chất lượng",
+    lable: "Vodacom",
+    subtitle: "#FurtherTogether",
     des:
-      "Giúp  tăng sự tự tin, đầu óc minh mẫn sáng suốt, giải quyết vấn đề cách linh hoạt thông suốt",
+      "Helps increase confidence, clear mind, solve problems flexibly and smoothly",
     imageUrl: require("../assets/Images/slide2.png"),
   },
   {
     id: 3,
-    lable: "Mang hạnh phúc về",
-    subtitle: "Bạn còn chần chừ gì nữa?",
-    des: "Hãy tìm ngay cho mình sự may mắn, hạnh phúc tại CatTuong ",
+    lable: "VodaPay",
+    subtitle: "What are you waiting for? Use Vodapay now",
+    des: "Find your own luck and happiness right away at Vodacom",
     imageUrl: require("../assets/Images/slide3.png"),
   },
 ];

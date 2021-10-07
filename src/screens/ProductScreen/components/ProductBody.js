@@ -30,9 +30,9 @@ export const ProductBody = ({
   );
   const rings = productsFilter.filter((ring) => ring.type === 'ring');
   const stones = productsFilter.filter((stone) => stone.type === 'stone');
-  DATA.push({ title: 'Vòng Chuối Ngọc', data: bracelets });
-  DATA.push({ title: 'Nhẫn Ruby', data: rings });
-  DATA.push({ title: 'Đá Quý', data: stones });
+  DATA.push({ title: 'Albany Bread', data: bracelets });
+  DATA.push({ title: 'Cornflakes', data: rings });
+  DATA.push({ title: 'Jam', data: stones });
   const scrollY = new Value(0);
   const sectionListRef = useRef(null);
   // const scrollToSection = (index) => {
@@ -67,8 +67,7 @@ export const ProductBody = ({
       </TouchableWithoutFeedback>
       {productsFilter.length === 0 ? (
         <CustomText style={{ textAlign: 'center', marginTop: 110 }}>
-          Không tìm thấy sản phẩm
-        </CustomText>
+No products found        </CustomText>
       ) : (
         <AnimatedSectionList
           sections={DATA} // REQUIRED: SECTIONLIST DATA

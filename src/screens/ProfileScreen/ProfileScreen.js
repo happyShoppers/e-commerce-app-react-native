@@ -31,7 +31,7 @@ export const ProfileScreen = (props) => {
       await dispatch(UploadProfilePic(imageUri, filename, type));
       setUploadButton(true);
       if (!unmounted.current) {
-        Alert.alert("Cập nhật", "Cập nhật thành công", [
+        Alert.alert("Update", "Update successful", [
           {
             text: "Ok",
           },

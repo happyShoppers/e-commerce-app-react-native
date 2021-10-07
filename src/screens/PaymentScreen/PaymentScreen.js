@@ -89,7 +89,7 @@ export const PaymentScreen = (props) => {
             <View style={styles.orderButton}>
               <TouchableOpacity onPress={addOrderAct}>
                 <CustomText style={{ color: '#fff', fontSize: 16 }}>
-                  Tiến hành đặt hàng
+                 Place your order
                 </CustomText>
               </TouchableOpacity>
             </View>

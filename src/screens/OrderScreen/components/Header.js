@@ -24,7 +24,7 @@ export const Header = ({ navigation }) => {
           />
         </TouchableOpacity>
       </View>
-      <CustomText style={styles.titleHeader}>Tra cứu đơn hàng</CustomText>
+      <CustomText style={styles.titleHeader}>Order lookup</CustomText>
       <View />
     </View>
   );

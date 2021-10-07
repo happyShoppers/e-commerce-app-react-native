@@ -12,23 +12,23 @@ import PropTypes from 'prop-types';
 const validate = (values) => {
   const errors = {};
   if (!values.name) {
-    errors.name = 'Họ tên không được bỏ trống';
+    errors.name = 'Name cannot be left blank';
   } else if (values.name.length < 6) {
-    errors.name = 'Họ tên phải nhiều hơn hoặc bằng 6 ký tự';
+    errors.name = 'Name must be more than or equal to 6 characters';
   } else {
     errors.name = '';
   }
   if (!values.phone) {
-    errors.phone = 'Số điện thoại không được bỏ trống';
+    errors.phone = 'Phone number cannot be left blank';
   } else if (values.phone.length !== 10) {
-    errors.phone = 'Số điện thoại phải 10 ký tự';
+    errors.phone = 'Phone number must be 10 characters';
   } else {
     errors.phone = '';
   }
   if (!values.address) {
-    errors.address = 'Địa chỉ không được bỏ trống';
+    errors.address = 'Address not be vacant';
   } else if (values.address.length < 6) {
-    errors.address = 'Địa chỉ phải nhiều hơn hoặc bằng 6 ký tự';
+    errors.address = 'Address must be more than or equal to 6 characters';
   } else {
     errors.address = '';
   }
@@ -47,13 +47,13 @@ const User = ({ getReceiver, checkValidation }) => {
 
   return (
     <View style={styles.container}>
-      <CustomText style={styles.title}>Thông Tin Giao Hàng</CustomText>
+      <CustomText style={styles.title}>Shipment Details</CustomText>
       <View style={styles.inputContainer}>
         <View style={styles.inputBox}>
           <Field
             name='name'
             maxLength={35}
-            label='Họ Tên'
+            label='Last Name'
             keyboardType='default'
             component={renderField}
             onChangeText={(value) => setReceiverName(value)}
@@ -63,7 +63,7 @@ const User = ({ getReceiver, checkValidation }) => {
           <Field
             name='phone'
             maxLength={10}
-            label='Số Điện Thoại'
+            label='Phone number'
             component={renderField}
             onChangeText={(value) => setPhone(value)}
             keyboardType='numeric'
@@ -74,7 +74,7 @@ const User = ({ getReceiver, checkValidation }) => {
           <Field
             name='address'
             maxLength={35}
-            label='Địa Chỉ'
+            label='Address'
             component={renderField}
             onChangeText={(value) => setAddress(value)}
             keyboardType='default'

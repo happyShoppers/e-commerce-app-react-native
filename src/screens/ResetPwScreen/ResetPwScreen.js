@@ -26,12 +26,12 @@ const validate = (values) => {
   const errors = {};
 
   if (!values.password) {
-    errors.password = "Mật khẩu không được bỏ trống";
+    errors.password = "Password cannot be left blank";
   } else if (values.password.length < 6) {
-    errors.password = "Mật khẩu phải nhiều hơn hoặc bằng 6 ký tự";
+    errors.password = "Password must be more than or equal to 6 characters";
   }
   if (values.confirmpassword !== values.password) {
-    errors.confirmpassword = "Mật khẩu xác nhận không trùng khớp";
+    errors.confirmpassword = "Confirm password does not match";
   }
 
   return errors;
@@ -82,10 +82,10 @@ const resetForm = (props) => {
         <Field
           name="password"
           keyboardType="default"
-          label="Mật Khẩu"
+          label="Password"
           component={renderField}
           secureTextEntry={!showPass ? true : false}
-          placeholder="Mật khẩu của bạn"
+          placeholder="Password của bạn"
           icon="lock-outline"
           passIcon="pass"
           showPass={showPass}
@@ -94,10 +94,10 @@ const resetForm = (props) => {
         <Field
           name="confirmpassword"
           keyboardType="default"
-          label="Xác Nhận Mật Khẩu"
+          label="Confirm Password"
           component={renderField}
           secureTextEntry={!showConfirmPass ? true : false}
-          placeholder="Xác nhận mật khẩu"
+          placeholder="Confirm Password"
           passIcon="confirm"
           icon="lock-outline"
           showConfirmPass={showConfirmPass}

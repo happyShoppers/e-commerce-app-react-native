@@ -38,7 +38,7 @@ export class TotalButton extends React.PureComponent {
         >
           <View style={styles.btn}>
             <CustomText style={{ color: '#fff', fontSize: 16 }}>
-              Tiến hành đặt hàng
+             Place your order
             </CustomText>
           </View>
         </TouchableOpacity>

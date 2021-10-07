@@ -28,12 +28,12 @@ export const CartBody = ({
 }) => {
   const dispatch = useDispatch();
   const onRemove = (itemId) => {
-    Alert.alert("Bỏ giỏ hàng", "Bạn có chắc bỏ sản phẩm khỏi giỏ hàng?", [
+    Alert.alert("Discard Cart", "Are you sure to remove the product from the cart?", [
       {
-        text: "Hủy",
+        text: "Cancel",
       },
       {
-        text: "Đồng ý",
+        text: "Agree",
         onPress: () => {
           dispatch(removeFromCart(carts._id, itemId));
         },
@@ -54,7 +54,7 @@ export const CartBody = ({
       ) : carts.items.length === 0 ? (
         <View style={styles.center}>
           <CustomText style={{ fontSize: 16 }}>
-            Chưa có sản phẩm nào trong giỏ hàng
+            Chưa có sản phẩm nào trongCart
           </CustomText>
         </View>
       ) : (

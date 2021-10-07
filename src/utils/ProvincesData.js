@@ -31,7 +31,7 @@ const ProvincesData = {
       HUYENTHUONGTIN: "Huyện Thường Tín",
       HUYENPHUXUYEN: "Huyện Phú Xuyên",
       HUYENMELINH: "Huyện Mê Linh",
-      HANOIKHAC: "Quận/Huyện khác",
+      HANOIKHAC: "District khác",
     },
   },
   HOCHIMINH: {
@@ -61,7 +61,7 @@ const ProvincesData = {
       HUYENHOCMON: "Huyện Hóc Môn",
       HUYENNHABE: "Huyện Nhà Bè",
       HUYENCANGIO: "Huyện Cần Giờ",
-      HOCHIMINHKHAC: "Quận/Huyện khác",
+      HOCHIMINHKHAC: "District khác",
     },
   },
   HAIPHONG: {
@@ -75,14 +75,14 @@ const ProvincesData = {
       QUANDOSON: "Quận Đồ Sơn",
       HUYENANLAO: "Huyện An Lão",
       HUYENKIENTHUY: "Huyện Kiến Thụy",
-      HUYENTHUYNGUYEN: "Huyện Thủy Nguyên",
+      HUYENTHUYNGUYEN: "Huyện TCancel Nguyên",
       HUYENANDUONG: "Huyện An Dương",
       HUYENTIENLANG: "Huyện Tiên Lãng",
       HUYENVINHBAO: "Huyện Vĩnh Bảo",
       HUYENCATHAI: "Huyện Cát Hải",
       HUYENBACHLONGVI: "Huyện Bạch Long Vĩ",
       QUANDUONGKINH: "Quận Dương Kinh",
-      HAIPHONGKHAC: "Quận/Huyện khác",
+      HAIPHONGKHAC: "District khác",
     },
   },
   DANANG: {
@@ -95,7 +95,7 @@ const ProvincesData = {
       QUANLIENCHIEU: "Quận Liên Chiểu",
       HUYENHOAVANG: "Huyện Hoà Vang",
       QUANCAMLE: "Quận Cẩm Lệ",
-      DANANGKHAC: "Quận/Huyện khác",
+      DANANGKHAC: "District khác",
     },
   },
   HAGIANG: {
@@ -112,7 +112,7 @@ const ProvincesData = {
       HUYENXINMAN: "Huyện Xín Mần",
       HUYENBACQUANG: "Huyện Bắc Quang",
       HUYENQUANGBINH: "Huyện Quang Bình",
-      HAGIANGKHAC: "Quận/Huyện khác",
+      HAGIANGKHAC: "District khác",
     },
   },
   CAOBANG: {
@@ -131,7 +131,7 @@ const ProvincesData = {
       HUYENHALANG: "Huyện Hạ Lang",
       HUYENBAOLAM: "Huyện Bảo Lâm",
       HUYENPHUCHOA: "Huyện Phục Hoà",
-      CAOBANGKHAC: "Quận/Huyện khác",
+      CAOBANGKHAC: "District khác",
     },
   },
   LAICHAU: {
@@ -145,7 +145,7 @@ const ProvincesData = {
       HUYENTHANUYEN: "Huyện Than Uyên",
       HUYENTANUYEN: "Huyện Tân Uyên",
       HUYENNAMNHUM: "Huyện Nậm Nhùm",
-      LAICHAUKHAC: "Quận/Huyện khác",
+      LAICHAUKHAC: "District khác",
     },
   },
   LAOCAI: {
@@ -160,7 +160,7 @@ const ProvincesData = {
       HUYENBAOYEN: "Huyện Bảo Yên",
       HUYENBACHA: "Huyện Bắc Hà",
       HUYENMUONGKHUONG: "Huyện Mường Khương",
-      LAOCAIKHAC: "Quận/Huyện khác",
+      LAOCAIKHAC: "District khác",
     },
   },
   TUYENQUANG: {
@@ -173,7 +173,7 @@ const ProvincesData = {
       HUYENHAMYEN: "Huyện Hàm Yên",
       HUYENYENSON: "Huyện Yên Sơn",
       HUYENSONDUONG: "Huyện Sơn Dương",
-      TUYENQUANGKHAC: "Quận/Huyện khác",
+      TUYENQUANGKHAC: "District khác",
     },
   },
   LANGSON: {
@@ -190,7 +190,7 @@ const ProvincesData = {
       HUYENCHILANG: "Huyện Chi Lăng",
       HUYENDINHLAP: "Huyện Đình Lập",
       HUYENHUULUNG: "Huyện Hữu Lũng",
-      LANGSONKHAC: "Quận/Huyện khác",
+      LANGSONKHAC: "District khác",
     },
   },
   BACKAN: {
@@ -204,7 +204,7 @@ const ProvincesData = {
       HUYENBABE: "Huyện Ba Bể",
       HUYENCHOMOI: "Huyện Chợ Mới",
       HUYENPACNAM: "Huyện Pác Nặm",
-      BACKANKHAC: "Quận/Huyện khác",
+      BACKANKHAC: "District khác",
     },
   },
   THAINGUYEN: {
@@ -219,7 +219,7 @@ const ProvincesData = {
       HUYENDONGHY: "Huyện Đồng Hỷ",
       HUYENPHUBINH: "Huyện Phú Bình",
       HUYENPHOYEN: "Huyện Phổ Yên",
-      THAINGUYENKHAC: "Quận/Huyện khác",
+      THAINGUYENKHAC: "District khác",
     },
   },
   YENBAI: {
@@ -234,7 +234,7 @@ const ProvincesData = {
       HUYENTRANYEN: "Huyện Trấn Yên",
       HUYENTRAMTAU: "Huyện Trạm Tấu",
       HUYENLUCYEN: "Huyện Lục Yên",
-      YENBAIKHAC: "Quận/Huyện khác",
+      YENBAIKHAC: "District khác",
     },
   },
   SONLA: {
@@ -252,7 +252,7 @@ const ProvincesData = {
       HUYENMOCCHAU: "Huyện Mộc Châu",
       HUYENSOPCOP: "huyện Sốp Cộp",
       HUYENVANHO: "Huyện Vân Hồ",
-      SONLAKHAC: "Quận/Huyện khác",
+      SONLAKHAC: "District khác",
     },
   },
   PHUTHO: {
@@ -269,9 +269,9 @@ const ProvincesData = {
       HUYENPHUNINH: "Huyện Phù Ninh",
       HUYENLAMTHAO: "Huyện Lâm Thao",
       HUYENTAMNONG: "Huyện Tam Nông",
-      HUYENTHANHTHUY: "Huyện Thanh Thủy",
+      HUYENTHANHTHUY: "Huyện Thanh TCancel",
       HUYENTANSON: "Huyện Tân Sơn",
-      PHUTHOKHAC: "Quận/Huyện khác",
+      PHUTHOKHAC: "District khác",
     },
   },
   VINHPHUC: {
@@ -286,7 +286,7 @@ const ProvincesData = {
       HUYENSONGLO: "Huyện Sông Lô",
       THIXAPHUCYEN: "Thị xã Phúc Yên",
       HUYENTAMDAO: "Huyện Tam Đảo",
-      VINHPHUCKHAC: "Quận/Huyện khác",
+      VINHPHUCKHAC: "District khác",
     },
   },
   QUANGNINH: {
@@ -306,7 +306,7 @@ const ProvincesData = {
       HUYENHOANHBO: "Huyện Hoành Bồ",
       HUYENVANDON: "Huyện Vân Đồn",
       HUYENCOTO: "Huyện Cô Tô",
-      QUANGNINHKHAC: "Quận/Huyện khác",
+      QUANGNINHKHAC: "District khác",
     },
   },
   BACGIANG: {
@@ -322,7 +322,7 @@ const ProvincesData = {
       HUYENLANGGIANG: "Huyện Lạng Giang",
       HUYENVIETYEN: "Huyện Việt Yên",
       HUYENYENDUNG: "Huyện Yên Dũng",
-      BACGIANGKHAC: "Quận/Huyện khác",
+      BACGIANGKHAC: "District khác",
     },
   },
   BACNINH: {
@@ -336,7 +336,7 @@ const ProvincesData = {
       HUYENTHUANTHANH: "Huyện Thuận Thành",
       HUYENGIABINH: "Huyện Gia Bình",
       HUYENLUONGTAI: "Huyện Lương Tài",
-      BACNINHKHAC: "Quận/Huyện khác",
+      BACNINHKHAC: "District khác",
     },
   },
   HAIDUONG: {
@@ -354,7 +354,7 @@ const ProvincesData = {
       HUYENTHANHHA: "Huyện Thanh Hà",
       HUYENKIMTHANH: "Huyện Kim Thành",
       HUYENBINHGIANG: "Huyện Bình Giang",
-      HAIDUONGKHAC: "Quận/Huyện khác",
+      HAIDUONGKHAC: "District khác",
     },
   },
   HUNGYEN: {
@@ -370,7 +370,7 @@ const ProvincesData = {
       HUYENMYHAO: "Huyện Mỹ Hào",
       HUYENVANLAM: "Huyện Văn Lâm",
       HUYENVANGIANG: "Huyện Văn Giang",
-      HUNGYENKHAC: "Quận/Huyện khác",
+      HUNGYENKHAC: "District khác",
     },
   },
   HOABINH: {
@@ -387,7 +387,7 @@ const ProvincesData = {
       HUYENLACTHUY: "Huyện Lạc Thuỷ",
       HUYENYENTHUY: "Huyện Yên Thuỷ",
       HUYENCAOPHONG: "Huyện Cao Phong",
-      HOABINHKHAC: "Quận/Huyện khác",
+      HOABINHKHAC: "District khác",
     },
   },
   HANAM: {
@@ -399,7 +399,7 @@ const ProvincesData = {
       HUYENLYNHAN: "Huyện Lý Nhân",
       HUYENTHANHLIEM: "Huyện Thanh Liêm",
       HUYENBINHLUC: "Huyện Bình Lục",
-      HANAMKHAC: "Quận/Huyện khác",
+      HANAMKHAC: "District khác",
     },
   },
   NAMDINH: {
@@ -408,14 +408,14 @@ const ProvincesData = {
       THANHPHONAMDINH: "Thành phố Nam Định",
       HUYENMYLOC: "Huyện Mỹ Lộc",
       HUYENXUANTRUONG: "Huyện Xuân Trường",
-      HUYENGIAOTHUY: "Huyện Giao Thủy",
+      HUYENGIAOTHUY: "Huyện Giao TCancel",
       HUYENYYEN: "Huyện Ý Yên",
       HUYENVUBAN: "Huyện Vụ Bản",
       HUYENNAMTRUC: "Huyện Nam Trực",
       HUYENTRUCNINH: "Huyện Trực Ninh",
       HUYENNGHIAHUNG: "Huyện Nghĩa Hưng",
       HUYENHAIHAU: "Huyện Hải Hậu",
-      NAMDINHKHAC: "Quận/Huyện khác",
+      NAMDINHKHAC: "District khác",
     },
   },
   THAIBINH: {
@@ -429,7 +429,7 @@ const ProvincesData = {
       HUYENKIENXUONG: "Huyện Kiến Xương",
       HUYENTIENHAI: "Huyện Tiền Hải",
       HUYENTHAITHUY: "Huyện Thái Thuỵ",
-      THAIBINHKHAC: "Quận/Huyện khác",
+      THAIBINHKHAC: "District khác",
     },
   },
   NINHBINH: {
@@ -443,7 +443,7 @@ const ProvincesData = {
       HUYENYENMO: "Huyện Yên Mô",
       HUYENKIMSON: "Huyện Kim Sơn",
       HUYENYENKHANH: "Huyện Yên Khánh",
-      NINHBINHKHAC: "Quận/Huyện khác",
+      NINHBINHKHAC: "District khác",
     },
   },
   THANHHOA: {
@@ -462,7 +462,7 @@ const ProvincesData = {
       HUYENLANGCHANH: "Huyện Lang Chánh",
       HUYENNGOCLAC: "Huyện Ngọc Lặc",
       HUYENTHACHTHANH: "Huyện Thạch Thành",
-      HUYENCAMTHUY: "Huyện Cẩm Thủy",
+      HUYENCAMTHUY: "Huyện Cẩm TCancel",
       HUYENTHOXUAN: "Huyện Thọ Xuân",
       HUYENVINHLOC: "Huyện Vĩnh Lộc",
       HUYENTHIEUHOA: "Huyện Thiệu Hoá",
@@ -476,7 +476,7 @@ const ProvincesData = {
       HUYENQUANGXUONG: "Huyện Quảng Xương",
       HUYENTINHGIA: "Huyện Tĩnh Gia",
       HUYENYENDINH: "Huyện Yên Định",
-      THANHHOAKHAC: "Quận/Huyện khác",
+      THANHHOAKHAC: "District khác",
     },
   },
   NGHEAN: {
@@ -503,7 +503,7 @@ const ProvincesData = {
       HUYENQUEPHONG: "Huyện Quế Phong",
       THIXATHAIHOA: "Thị Xã Thái Hòa",
       THIXAHOANGMAI: "Thị Xã Hoàng Mai",
-      NGHEANKHAC: "Quận/Huyện khác",
+      NGHEANKHAC: "District khác",
     },
   },
   HATINH: {
@@ -521,7 +521,7 @@ const ProvincesData = {
       HUYENKYANH: "Huyện Kỳ Anh",
       HUYENVUQUANG: "Huyện Vũ Quang",
       HUYENLOCHA: "Huyện Lộc Hà",
-      HATINHKHAC: "Quận/Huyện khác",
+      HATINHKHAC: "District khác",
     },
   },
   QUANGBINH: {
@@ -534,7 +534,7 @@ const ProvincesData = {
       HUYENBOTRACH: "Huyện Bố Trạch",
       HUYENQUANGNINH: "Huyện Quảng Ninh",
       HUYENLETHUY: "Huyện Lệ Thuỷ",
-      QUANGBINHKHAC: "Quận/Huyện khác",
+      QUANGBINHKHAC: "District khác",
     },
   },
   QUANGTRI: {
@@ -550,7 +550,7 @@ const ProvincesData = {
       HUYENHUONGHOA: "Huyện Hướng Hóa",
       HUYENDAKRONG: "Huyện Đăk Rông",
       HUYENDAOCONCO: "Huyện đảo Cồn Cỏ",
-      QUANGTRIKHAC: "Quận/Huyện khác",
+      QUANGTRIKHAC: "District khác",
     },
   },
   THUATHIENHUE: {
@@ -561,11 +561,11 @@ const ProvincesData = {
       HUYENQUANGDIEN: "Huyện Quảng Điền",
       THIXAHUONGTRA: "Thị xã Hương Trà",
       HUYENPHUVANG: "Huyện Phú Vang",
-      THIXAHUONGTHUY: "Thị xã Hương Thủy",
+      THIXAHUONGTHUY: "Thị xã Hương TCancel",
       HUYENPHULOC: "Huyện Phú Lộc",
       HUYENNAMDONG: "Huyện Nam Đông",
       HUYENALUOI: "Huyện A Lưới",
-      THUATHIENHUEKHAC: "Quận/Huyện khác",
+      THUATHIENHUEKHAC: "District khác",
     },
   },
   QUANGNAM: {
@@ -589,7 +589,7 @@ const ProvincesData = {
       HUYENTAYGIANG: "Huyện Tây Giang",
       HUYENPHUNINH: "Huyện Phú Ninh",
       HUYENNONGSON: "Huyện Nông Sơn",
-      QUANGNAMKHAC: "Quận/Huyện khác",
+      QUANGNAMKHAC: "District khác",
     },
   },
   QUANGNGAI: {
@@ -609,7 +609,7 @@ const ProvincesData = {
       HUYENBATO: "Huyện Ba Tơ",
       HUYENSONTAY: "Huyện Sơn Tây",
       HUYENTAYTRA: "Huyện Tây Trà",
-      QUANGNGAIKHAC: "Quận/Huyện khác",
+      QUANGNGAIKHAC: "District khác",
     },
   },
   KONTUM: {
@@ -624,7 +624,7 @@ const ProvincesData = {
       HUYENDAKHA: "Huyện Đăk Hà",
       HUYENKONRAY: "Huyện Kon Rẫy",
       HUYENTUMORONG: "Huyện Tu Mơ Rông",
-      KONTUMKHAC: "Quận/Huyện khác",
+      KONTUMKHAC: "District khác",
     },
   },
   BINHDINH: {
@@ -641,7 +641,7 @@ const ProvincesData = {
       HUYENVANCANH: "Huyện Vân Canh",
       THIXAANNHON: "Thị xã An Nhơn",
       HUYENTUYPHUOC: "Huyện Tuy Phước",
-      BINHDINHKHAC: "Quận/Huyện khác",
+      BINHDINHKHAC: "District khác",
     },
   },
   GIALAI: {
@@ -664,7 +664,7 @@ const ProvincesData = {
       HUYENDAKPO: "Huyện Đak Pơ",
       HUYENPHUTHIEN: "Huyện Phú Thiện",
       HUYENCHUPUH: "Huyện Chư Pưh",
-      GIALAIKHAC: "Quận/Huyện khác",
+      GIALAIKHAC: "District khác",
     },
   },
   PHUYEN: {
@@ -679,7 +679,7 @@ const ProvincesData = {
       HUYENDONGHOA: "Huyện Đông Hòa",
       HUYENPHUHOA: "Huyện Phú Hòa",
       HUYENTAYHOA: "Huyện Tây Hòa",
-      PHUYENKHAC: "Quận/Huyện khác",
+      PHUYENKHAC: "District khác",
     },
   },
   DAKLAK: {
@@ -700,7 +700,7 @@ const ProvincesData = {
       HUYENBUONDON: "Huyện Buôn Đôn",
       HUYENCUKUIN: "Huyện Cư Kuin",
       THIXABUONHO: "Thị Xã Buôn Hồ",
-      DAKLAKKHAC: "Quận/Huyện khác",
+      DAKLAKKHAC: "District khác",
     },
   },
   KHANHHOA: {
@@ -715,7 +715,7 @@ const ProvincesData = {
       HUYENKHANHSON: "Huyện Khánh Sơn",
       HUYENDAOTRUONGSA: "Huyện đảo Trường Sa",
       HUYENCAMLAM: "Huyện Cam Lâm",
-      KHANHHOAKHAC: "Quận/Huyện khác",
+      KHANHHOAKHAC: "District khác",
     },
   },
   LAMDONG: {
@@ -733,7 +733,7 @@ const ProvincesData = {
       HUYENLAMHA: "Huyện Lâm Hà",
       HUYENBAOLAM: "Huyện Bảo Lâm",
       HUYENDAMRONG: "Huyện Đam Rông",
-      LAMDONGKHAC: "Quận/Huyện khác",
+      LAMDONGKHAC: "District khác",
     },
   },
   BINHPHUOC: {
@@ -749,7 +749,7 @@ const ProvincesData = {
       HUYENBUDANG: "Huyện Bù Đăng",
       HUYENHONQUAN: "Huyện Hớn Quản",
       HUYENBUGIAMAP: "Huyện Bù Gia Mập",
-      BINHPHUOCKHAC: "Quận/Huyện khác",
+      BINHPHUOCKHAC: "District khác",
     },
   },
   BINHDUONG: {
@@ -762,7 +762,7 @@ const ProvincesData = {
       THIXADIAN: "Thị xã Dĩ An",
       HUYENPHUGIAO: "Huyện Phú Giáo",
       HUYENDAUTIENG: "Huyện Dầu Tiếng",
-      BINHDUONGKHAC: "Quận/Huyện khác",
+      BINHDUONGKHAC: "District khác",
     },
   },
   NINHTHUAN: {
@@ -775,7 +775,7 @@ const ProvincesData = {
       HUYENBACAI: "Huyện Bác Ái",
       HUYENTHUANBAC: "Huyện Thuận Bắc",
       HUYENTHUANNAM: "Huyện Thuận Nam",
-      NINHTHUANKHAC: "Quận/Huyện khác",
+      NINHTHUANKHAC: "District khác",
     },
   },
   TAYNINH: {
@@ -790,7 +790,7 @@ const ProvincesData = {
       HUYENBENCAU: "Huyện Bến Cầu",
       HUYENGODAU: "Huyện Gò Dầu",
       HUYENTRANGBANG: "Huyện Trảng Bàng",
-      TAYNINHKHAC: "Quận/Huyện khác",
+      TAYNINHKHAC: "District khác",
     },
   },
   BINHTHUAN: {
@@ -806,7 +806,7 @@ const ProvincesData = {
       HUYENTANHLINH: "Huyện Tánh Linh",
       HUYENDAOPHUQUY: "Huyện đảo Phú Quý",
       THIXALAGI: "Thị xã La Gi",
-      BINHTHUANKHAC: "Quận/Huyện khác",
+      BINHTHUANKHAC: "District khác",
     },
   },
   DONGNAI: {
@@ -823,7 +823,7 @@ const ProvincesData = {
       HUYENNHONTRACH: "Huyện Nhơn Trạch",
       HUYENTRANGBOM: "Huyện Trảng Bom",
       HUYENCAMMY: "Huyện Cẩm Mỹ",
-      DONGNAIKHAC: "Quận/Huyện khác",
+      DONGNAIKHAC: "District khác",
     },
   },
   LONGAN: {
@@ -844,7 +844,7 @@ const ProvincesData = {
       HUYENCANGIUOC: "Huyện Cần Giuộc",
       HUYENTANHUNG: "Huyện Tân Hưng",
       THIXAKIENTUONG: "Thị xã Kiến Tường",
-      LONGANKHAC: "Quận/Huyện khác",
+      LONGANKHAC: "District khác",
     },
   },
   DONGTHAP: {
@@ -862,7 +862,7 @@ const ProvincesData = {
       HUYENLAIVUNG: "Huyện Lai Vung",
       HUYENCHAUTHANH: "Huyện Châu Thành",
       THIXAHONGNGU: "Thị Xã Hồng Ngự",
-      DONGTHAPKHAC: "Quận/Huyện khác",
+      DONGTHAPKHAC: "District khác",
     },
   },
   ANGIANG: {
@@ -879,7 +879,7 @@ const ProvincesData = {
       HUYENCHOMOI: "Huyện Chợ Mới",
       HUYENCHAUTHANH: "Huyện Châu Thành",
       HUYENTHOAISON: "Huyện Thoại Sơn",
-      ANGIANGKHAC: "Quận/Huyện khác",
+      ANGIANGKHAC: "District khác",
     },
   },
   BARIAVUNGTAU: {
@@ -893,7 +893,7 @@ const ProvincesData = {
       HUYENTANTHANH: "Huyện Tân Thành",
       HUYENCHAUDUC: "Huyện Châu Đức",
       HUYENDATDO: "Huyện Đất Đỏ",
-      BARIAVUNGTAUKHAC: "Quận/Huyện khác",
+      BARIAVUNGTAUKHAC: "District khác",
     },
   },
   TIENGIANG: {
@@ -909,7 +909,7 @@ const ProvincesData = {
       HUYENGOCONGDONG: "Huyện Gò Công Đông",
       HUYENTANPHUOC: "Huyện Tân Phước",
       HUYENTANPHUDONG: "Huyện Tân Phú Đông",
-      TIENGIANGKHAC: "Quận/Huyện khác",
+      TIENGIANGKHAC: "District khác",
     },
   },
   KIENGIANG: {
@@ -930,7 +930,7 @@ const ProvincesData = {
       HUYENKIENHAI: "Huyện Kiên Hải",
       HUYENUMINHTHUONG: "Huyện U Minh Thượng",
       HUYENGIANGTHANH: "Huyện Giang Thành",
-      KIENGIANGKHAC: "Quận/Huyện khác",
+      KIENGIANGKHAC: "District khác",
     },
   },
   TRAVINH: {
@@ -944,7 +944,7 @@ const ProvincesData = {
       HUYENTRACU: "Huyện Trà Cú",
       HUYENCAUNGANG: "Huyện Cầu Ngang",
       HUYENDUYENHAI: "Huyện Duyên Hải",
-      TRAVINHKHAC: "Quận/Huyện khác",
+      TRAVINHKHAC: "District khác",
     },
   },
   BENTRE: {
@@ -959,7 +959,7 @@ const ProvincesData = {
       HUYENBATRI: "Huyện Ba Tri",
       HUYENTHANHPHU: "Huyện Thạnh Phú",
       HUYENMOCAYNAM: "Huyện Mỏ Cày Nam",
-      BENTREKHAC: "Quận/Huyện khác",
+      BENTREKHAC: "District khác",
     },
   },
   VINHLONG: {
@@ -973,7 +973,7 @@ const ProvincesData = {
       HUYENTRAON: "Huyện Trà Ôn",
       HUYENVUNGLIEM: "Huyện Vũng Liêm",
       HUYENBINHTAN: "Huyện Bình Tân",
-      VINHLONGKHAC: "Quận/Huyện khác",
+      VINHLONGKHAC: "District khác",
     },
   },
   SOCTRANG: {
@@ -990,7 +990,7 @@ const ProvincesData = {
       HUYENNGANAM: "Huyện Ngã Năm",
       HUYENCHAUTHANH: "Huyện Châu Thành",
       HUYENTRANDE: "Huyện Trần Đề",
-      SOCTRANGKHAC: "Quận/Huyện khác",
+      SOCTRANGKHAC: "District khác",
     },
   },
   BACLIEU: {
@@ -1003,7 +1003,7 @@ const ProvincesData = {
       HUYENPHUOCLONG: "Huyện Phước Long",
       HUYENDONGHAI: "Huyện Đông Hải",
       HUYENHOABINH: "Huyện Hoà Bình",
-      BACLIEUKHAC: "Quận/Huyện khác",
+      BACLIEUKHAC: "District khác",
     },
   },
   CAMAU: {
@@ -1018,7 +1018,7 @@ const ProvincesData = {
       HUYENNGOCHIEN: "Huyện Ngọc Hiển",
       HUYENNAMCAN: "Huyện Năm Căn",
       HUYENPHUTAN: "Huyện Phú Tân",
-      CAMAUKHAC: "Quận/Huyện khác",
+      CAMAUKHAC: "District khác",
     },
   },
   DIENBIEN: {
@@ -1033,7 +1033,7 @@ const ProvincesData = {
       HUYENDIENBIENDONG: "Huyện Điện Biên Đông",
       HUYENMUONGNHE: "Huyện Mường Nhé",
       HUYENMUONGANG: "Huyện Mường Ảng",
-      DIENBIENKHAC: "Quận/Huyện khác",
+      DIENBIENKHAC: "District khác",
     },
   },
   DAKNONG: {
@@ -1047,7 +1047,7 @@ const ProvincesData = {
       HUYENKRONGNO: "Huyện Krông Nô",
       HUYENDAKGLONG: "Huyện Đăk GLong",
       HUYENTUYDUC: "Huyện Tuy Đức",
-      DAKNONGKHAC: "Quận/Huyện khác",
+      DAKNONGKHAC: "District khác",
     },
   },
   HAUGIANG: {
@@ -1060,7 +1060,7 @@ const ProvincesData = {
       HUYENCHAUTHANH: "Huyện Châu Thành",
       HUYENCHAUTHANHA: "Huyện Châu Thành A",
       THIXANGABAY: "Thị xã Ngã Bảy",
-      HAUGIANGKHAC: "Quận/Huyện khác",
+      HAUGIANGKHAC: "District khác",
     },
   },
 };

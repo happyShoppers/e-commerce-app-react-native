@@ -1,14 +1,14 @@
 export const categories = [
   {
-    name: "Vòng Thạch Anh",
+    name: "Veg",
     bg: require("../../../assets/Images/bg1.jpg"),
   },
   {
-    name: "Nhẫn Đá Quý",
+    name: "Meat",
     bg: require("../../../assets/Images/bg2.jpg"),
   },
   {
-    name: "Đá Ruby",
+    name: "Snacks",
     bg: require("../../../assets/Images/bg3.jpg"),
   },
 ];

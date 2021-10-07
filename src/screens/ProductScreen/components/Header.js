@@ -82,7 +82,7 @@ export const Header = ({ navigation, searchFilterFunction, scrollY }) => {
             style={[{ width: "100%", borderRadius: 5 }]}
           >
             <TextInput
-              placeholder="Tìm kiếm sản phẩm"
+              placeholder="Search..."
               placeholderTextColor={Colors.white}
               clearButtonMode="always"
               onChangeText={(text) => searchFilterFunction(text)}

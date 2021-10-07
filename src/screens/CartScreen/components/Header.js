@@ -26,7 +26,7 @@ export const Header = ({ navigation, user, carts }) => {
         />
       </TouchableOpacity>
       <CustomText style={styles.titleHeader}>
-        Giỏ Hàng{" "}
+       Cart{" "}
         {Object.keys(user).length === 0
           ? ""
           : carts.items.length === 0

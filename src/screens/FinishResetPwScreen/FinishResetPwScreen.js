@@ -40,7 +40,7 @@ export const FinishResetPwScreen = (props) => {
       </View>
       <View style={styles.id}>
         <CustomText style={styles.title}>
-          Vui lòng kiểm tra hòm thư của bạn.{" "}
+          Please check your mailbox.{" "}
         </CustomText>
       </View>
 

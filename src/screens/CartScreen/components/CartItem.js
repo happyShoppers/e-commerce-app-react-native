@@ -27,14 +27,14 @@ export class CartItem extends React.PureComponent {
     const checkDesQuantity = async () => {
       if (item.quantity == 1) {
         Alert.alert(
-          "Xóa giỏ hàng",
-          "Bạn có chắc muốn xóa sản phẩm khỏi giỏ hàng?",
+          "Clear cart",
+          "Are you sure you want to remove the product from the cart?",
           [
             {
-              text: "Hủy",
+              text: "Cancel",
             },
             {
-              text: "Đồng ý",
+              text: "Agree",
               onPress: onRemove,
             },
           ]
@@ -68,7 +68,7 @@ export class CartItem extends React.PureComponent {
             </View>
           </View>
           <CustomText style={{ color: Colors.grey, fontSize: 12 }}>
-            Cung cấp bởi Cát Tường
+          Provided by Vodacom
           </CustomText>
           <NumberFormat price={sum.toString()} />
           <View style={styles.box}>

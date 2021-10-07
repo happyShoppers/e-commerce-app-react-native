@@ -30,26 +30,26 @@ const { width, height } = Dimensions.get("window");
 const validate = (values) => {
   const errors = {};
   if (!values.email) {
-    errors.email = "Email không được bỏ trống";
+    errors.email = "Email must not be empty";
   } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
-    errors.email = "Email không hơp lệ";
+    errors.email = "Email Invalid";
   }
   if (!values.password) {
-    errors.password = "Mật khẩu không được bỏ trống";
+    errors.password = "Password cannot be left blank";
   } else if (values.password.length < 6) {
-    errors.password = "Mật khẩu phải nhiều hơn hoặc bằng 6 ký tự";
+    errors.password = "Password must be more than or equal to 6 characters";
   }
   if (!values.confirmpassword) {
-    errors.confirmpassword = "Mật khẩu không được bỏ trống";
+    errors.confirmpassword = "Password cannot be left blank";
   } else if (values.confirmpassword !== values.password) {
-    errors.confirmpassword = "Mật khẩu xác nhận không trùng khớp";
+    errors.confirmpassword = "Mật khẩu Confirm không trùng khớp";
   }
   if (!values.username) {
-    errors.username = "Tên không được bỏ trống";
+    errors.username = "Name cannot be left blank";
   } else if (values.username.length > 20) {
-    errors.username = "Tên không vượt quá 20 ký tự";
+    errors.username = "Name should not exceed 20 characters";
   } else if (values.username.length < 6) {
-    errors.username = "Tên phải nhiều hơn 6 ký tự";
+    errors.username = "Name must be more than 6 characters";
   }
 
   return errors;

@@ -12,7 +12,7 @@ export const ContactBody = () => {
         <TextIcon
           icon={require("../../../components/IconAnimation/location.json")}
           text='14 Phan Ngữ'
-          url='mailto: anhquan291@gmail.com'
+          url='mailto: happyshoppers@gmail.com'
         />
         <TextIcon
           icon={require("../../../components/IconAnimation/email3.json")}

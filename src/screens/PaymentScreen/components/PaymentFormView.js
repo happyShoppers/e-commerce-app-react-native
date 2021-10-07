@@ -32,7 +32,7 @@ export default class PaymentFormView extends React.Component {
           ]}
         >
           <Button
-            title='Xác nhận'
+            title='Confirm'
             disabled={!this.state.cardData.valid || submitted}
             onPress={() => onSubmit(this.state.cardData)}
           />

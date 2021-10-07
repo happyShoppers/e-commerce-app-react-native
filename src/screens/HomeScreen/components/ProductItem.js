@@ -76,7 +76,7 @@ export class ProductItem extends React.PureComponent {
           </View>
           <View style={{ marginHorizontal: 5 }}>
             <TouchableOpacity style={styles.btn} onPress={toDetail}>
-              <CustomText style={styles.detailBtn}>Xem chi tiết</CustomText>
+              <CustomText style={styles.detailBtn}>See details</CustomText>
             </TouchableOpacity>
           </View>
         </BlurView>

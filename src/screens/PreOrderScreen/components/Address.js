@@ -17,7 +17,7 @@ const { width } = Dimensions.get("window");
 const Address = ({ getInfo }) => {
   const [selectedProvince, setselectedProvince] = useState("");
   const [selectedTown, setselectedTown] = useState("");
-  const initialTown = [{ label: "Chọn Quận/Huyện", value: "1" }];
+  const initialTown = [{ label: "Select District/District", value: "1" }];
   const [getTowns, setGetTowns] = useState(initialTown);
   //Filter Towns
   const townsFilter = useCallback(
@@ -65,7 +65,7 @@ const Address = ({ getInfo }) => {
         <View>
           <RNPickerSelect
             onValueChange={(value) => townsFilter(value)}
-            placeholder={{ label: "Tỉnh/Thành phố", value: "1" }}
+            placeholder={{ label: "Province/City", value: "1" }}
             items={Provinces}
             style={pickerSelectStyles}
             allowFontScaling={false}
@@ -77,7 +77,7 @@ const Address = ({ getInfo }) => {
         <View>
           <RNPickerSelect
             onValueChange={(value) => setselectedTown(value)}
-            placeholder={{ label: "Quận/Huyện", value: "" }}
+            placeholder={{ label: "District", value: "" }}
             items={getTowns}
             value={selectedTown}
             style={pickerSelectStyles}
