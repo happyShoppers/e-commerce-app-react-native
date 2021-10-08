@@ -1,5 +1,5 @@
 export default {
-  primary: "red",
+  primary: "#b5b5b5",
   text: "#707070",
   grey: "#b5b5b5",
   blue: "#3c82fc",
@@ -13,7 +13,7 @@ export default {
   // light_green: "#18945a",
   lighter_green: "#2ba56a",
   leave_green: "#18a561",
-  purple: "#grey",
+  purple: "#18945a",
   water: "#6f8bc8",
   green: "#1baa43",
   straw: "#e55d4b",

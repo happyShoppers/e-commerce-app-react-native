@@ -30,12 +30,12 @@ export const fetchCart = () => {
             method: "GET",
           })
         );
-        if (!response.ok) {
-          dispatch({
-            type: CART_FAILURE,
-          });
-          throw new Error("Something went wrong!, can't get your carts");
-        }
+        // if (!response.ok) {
+        //   dispatch({
+        //     type: CART_FAILURE,
+        //   });
+        //   throw new Error("Something went wrong!, can't get your carts");
+        // }
         const resData = await response.json();
         const filterUserCart = resData.content.filter(
           (userCart) => userCart.userId === user.userid
@@ -82,12 +82,12 @@ export const addToCart = (item) => {
           }),
         })
       );
-      if (!response.ok) {
-        dispatch({
-          type: CART_FAILURE,
-        });
-        throw new Error("Something went wrong!");
-      }
+      // if (!response.ok) {
+      //   dispatch({
+      //     type: CART_FAILURE,
+      //   });
+      //   throw new Error("Something went wrong!");
+      // }
       dispatch({
         type: "ADD_CART",
         cartItem: item,
@@ -119,12 +119,12 @@ export const removeFromCart = (cartId, itemId) => {
           }),
         })
       );
-      if (!response.ok) {
-        dispatch({
-          type: CART_FAILURE,
-        });
-        throw new Error("Something went wrong!");
-      }
+      // if (!response.ok) {
+      //   dispatch({
+      //     type: CART_FAILURE,
+      //   });
+      //   throw new Error("Something went wrong!");
+      // }
       dispatch({
         type: "REMOVE_FROM_CART",
         itemId,
@@ -156,12 +156,12 @@ export const decCartQuantity = (cartId, itemId) => {
           }),
         })
       );
-      if (!response.ok) {
-        dispatch({
-          type: CART_FAILURE,
-        });
-        throw new Error("Something went wrong!");
-      }
+      // if (!response.ok) {
+      //   dispatch({
+      //     type: CART_FAILURE,
+      //   });
+      //   throw new Error("Something went wrong!");
+      // }
       dispatch({
         type: "DES_CART_QUANTITY",
         cartItemId: itemId,

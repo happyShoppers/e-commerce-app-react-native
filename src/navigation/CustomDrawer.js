@@ -72,9 +72,10 @@ export default (props) => {
                 <Image
                   style={styles.profilePic}
                   source={
-                    user.profilePicture.length === 0
-                      ? require("../assets/Images/defaultprofile.png")
-                      : { uri: user.profilePicture }
+                    require("../assets/Images/defaultprofile.png")
+                    // user.profilePicture.length === 0
+                    //   ? require("../assets/Images/defaultprofile.png")
+                    //   : { uri: user.profilePicture }
                   }
                 />
               </TouchableOpacity>

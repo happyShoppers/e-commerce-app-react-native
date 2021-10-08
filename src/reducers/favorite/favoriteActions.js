@@ -77,12 +77,12 @@ export const addFavorite = (item) => {
           }),
         })
       );
-      if (!response.ok) {
-        dispatch({
-          type: FAVORITE_FAILURE,
-        });
-        throw new Error("Something went wrong!");
-      }
+      // if (!response.ok) {
+      //   dispatch({
+      //     type: FAVORITE_FAILURE,
+      //   });
+      //   throw new Error("Something went wrong!");
+      // }
       dispatch({
         type: ADD_FAVORITE,
         addItem: item,
@@ -112,12 +112,12 @@ export const removeFavorite = (id) => {
           }),
         })
       );
-      if (!response.ok) {
-        dispatch({
-          type: FAVORITE_FAILURE,
-        });
-        throw new Error("Something went wrong!");
-      }
+      // if (!response.ok) {
+      //   dispatch({
+      //     type: FAVORITE_FAILURE,
+      //   });
+      //   throw new Error("Something went wrong!");
+      // }
       dispatch({
         type: REMOVE_FAVORITE,
         itemId: id,

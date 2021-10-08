@@ -46,10 +46,12 @@ export const Comments = () => {
                 <View style={styles.profileContainer}>
                   <Image
                     style={styles.profilePic}
+
                     source={
-                      user.profilePicture.length === 0
-                        ? require("../../../assets/Images/defaultprofile.jpg")
-                        : { uri: user.profilePicture }
+                      require("../../../assets/Images/defaultprofile.jpg")
+                      // user.profilePicture.length === 0
+                      //   ? require("../../../assets/Images/defaultprofile.jpg")
+                      //   : { uri: user.profilePicture }
                     }
                   />
                 </View>

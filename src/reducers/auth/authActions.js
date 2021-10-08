@@ -104,10 +104,9 @@ export const Login = (email, password) => {
       //   throw new Error(errorResData.err);
       // }
 
-
       const resData = await response.json();
 
-      saveDataToStorage('user', resData);
+      saveDataToStorage('user', {name:"Khanya"});
 
       dispatch(setLogoutTimer(60 * 60 * 1000));
 

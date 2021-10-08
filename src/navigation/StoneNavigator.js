@@ -366,7 +366,7 @@ export const DrawerNavigator = () => {
                     fontFamily: 'Roboto-Medium',
                   }}
                 >
-                  Thông Tin Cá Nhân
+                 Personal Information
                 </CustomText>
               ),
               drawerIcon: ({ focused }) => (
